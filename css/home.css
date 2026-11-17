@@ -12,6 +12,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 88px;
 }
 
 body {
@@ -513,6 +514,99 @@ header {
   color: #80695e;
 }
 
+.reach {
+  background: #fffaf6;
+  border-top: 1px solid #ebdcd3;
+}
+
+.reach h2 em {
+  font-style: italic;
+  color: #a77769;
+}
+
+.reach-stats {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr;
+  border: 1px solid #ebdcd3;
+  background: #fffdfb;
+}
+
+.reach-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-height: 180px;
+  padding: 28px 26px 24px;
+  border-right: 1px solid #ebdcd3;
+}
+
+.reach-stat:last-child {
+  border-right: 0;
+}
+
+.reach-stat-lead {
+  background: #a77c65;
+  color: #fffdfb;
+}
+
+.reach-stat-lead .reach-label,
+.reach-stat-lead .reach-handle {
+  color: rgba(255, 253, 251, 0.86);
+}
+
+.reach-num {
+  font: 500 3.2rem "Playfair Display", serif;
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+
+.reach-label,
+.reach-handle {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #80695e;
+}
+
+.reach-posts {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr;
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.reach-post {
+  display: flex;
+  flex-direction: column;
+  background: #fffdfb;
+  border: 1px solid #ebdcd3;
+  min-height: 100%;
+}
+
+.reach-post img {
+  height: 240px;
+  object-fit: cover;
+}
+
+.reach-post div {
+  padding: 16px 16px 18px;
+}
+
+.reach-post h3 {
+  margin: 6px 0 8px;
+  font: 1.45rem "Playfair Display", serif;
+}
+
+.reach-post p {
+  margin: 0;
+  color: #80695e;
+  font-size: 0.95rem;
+}
+
+.reach-post .eyebrow {
+  margin-bottom: 0;
+}
+
 .social-rail {
   position: fixed;
   left: 18px;
@@ -565,6 +659,20 @@ header {
     left: 16px;
     transform: none;
     flex-direction: row;
+  }
+
+  .reach-stats,
+  .reach-posts {
+    grid-template-columns: 1fr;
+  }
+
+  .reach-stat {
+    border-right: 0;
+    border-bottom: 1px solid #ebdcd3;
+  }
+
+  .reach-stat:last-child {
+    border-bottom: 0;
   }
 }
 
