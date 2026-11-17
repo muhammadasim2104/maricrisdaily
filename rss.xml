@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Maricris Daily</title>
+    <link>https://maricrisdaily.com/</link>
+    <description>A personal journal of ordinary days.</description>
+    <item>
+      <title>Morning light, before the house is awake</title>
+      <link>https://maricrisdaily.com/notes/morning-light.html</link>
+      <pubDate>Thu, 12 Nov 2026 06:40:00 +0400</pubDate>
+      <description>The kettle, the window, and a few minutes that belong to no one else.</description>
+    </item>
+    <item>
+      <title>The Sunday table</title>
+      <link>https://maricrisdaily.com/notes/the-sunday-table.html</link>
+      <pubDate>Sun, 08 Nov 2026 13:00:00 +0400</pubDate>
+      <description>A faded cloth, a late lunch, and the light moving across the room.</description>
+    </item>
+    <item>
+      <title>The quiet hour</title>
+      <link>https://maricrisdaily.com/notes/the-quiet-hour.html</link>
+      <pubDate>Mon, 02 Nov 2026 16:00:00 +0400</pubDate>
+      <description>An afternoon practice of not filling every soft minute.</description>
+    </item>
+    <item>
+      <title>Flowers for no reason</title>
+      <link>https://maricrisdaily.com/notes/flowers-for-no-reason.html</link>
+      <pubDate>Wed, 28 Oct 2026 11:00:00 +0400</pubDate>
+      <description>A jug of pale flowers on a day when nothing was being celebrated.</description>
+    </item>
+    <item>
+      <title>A letter to an ordinary Tuesday</title>
+      <link>https://maricrisdaily.com/notes/a-letter-to-tuesday.html</link>
+      <pubDate>Wed, 21 Oct 2026 18:00:00 +0400</pubDate>
+      <description>A note asking the middle of the week to stay exactly what it is.</description>
+    </item>
+    <item>
+      <title>Notes while the rice cooks</title>
+      <link>https://maricrisdaily.com/notes/kitchen-notes.html</link>
+      <pubDate>Wed, 14 Oct 2026 19:00:00 +0400</pubDate>
+      <description>Garlic, a wooden spoon, and the most honest room in the house.</description>
+    </item>
+  </channel>
+</rss>
