@@ -143,8 +143,9 @@ header {
 
 .hero-photo {
   height: 650px;
+  width: 100%;
   object-fit: cover;
-  object-position: center 10%;
+  object-position: center 32%;
 }
 
 .btn {
@@ -390,7 +391,7 @@ header {
   }
 
   .hero-photo {
-    height: 480px;
+    height: 640px;
     grid-row: 1;
   }
 
